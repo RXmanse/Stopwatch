@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.box {
+  border: 2px solid white;
+  display: flex;
+  width: 200px;
+  padding: 10px;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  height: auto
+}
+
+.box .timer {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+  font-size: 15px;
+  margin: 2px;
+  padding: 1px 10px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.start-btn {
+  background-color: rgb(64, 242, 64);
+}
+
+.stop-btn {
+  background-color: red;
+}
+
+.reset-btn {
+  background-color: aqua;
+}
